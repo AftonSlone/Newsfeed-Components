@@ -87,6 +87,13 @@ const data = [
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`,
   },
+  {
+    title: "League of Legends",
+    date: "2020",
+    firstParagraph: "Malz",
+    secondParagraph: "Oriana",
+    thirdParagraph: "Mundo",
+  },
 ];
 
 /*
@@ -139,7 +146,7 @@ const articleMaker = (articleData) => {
   article.appendChild(content3);
   article.appendChild(button);
   button.addEventListener("click", (e) => {
-    article.classList.toggle(".article-open");
+    article.classList.toggle("article-open");
   });
   return article;
 };
